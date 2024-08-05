@@ -1,0 +1,25 @@
+body,html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.img{
+    background-image: url("pexels-sebastian-189349.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#clock{
+    font-size: 250px;
+    color: white;
+}
